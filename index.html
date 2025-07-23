@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name = "viewport" content="width=device-width, intial-scale">
+    <title>To-Do Lsit App </title>
+    <link rel ="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="container">
+        <div class="todo-app">
+            <h2> To-Do List <img src="images/icon.png" ></h2>
+             <input type="date" id="myDate">
+             <input type="time" id="myTime">
+
+               
+             
+            <div class="row">
+            
+                <input type="text" id = "input-box" placeholder="Add your task">
+                <button onclick="addTask()"> Add</button>
+            
+            </div>
+            <ul id="list-container">
+               
+            </ul>
+        </div>
+        <div class="l">
+          <select id="Voice"></select>
+          <button class="b1" onclick="readTasks()" >Read for me</button>
+        </div>
+       
+      </div>
+      <script src="script.js"></script>
+    </body>
+</html>
