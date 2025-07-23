@@ -122,6 +122,7 @@ function readTasks() {
 
   speak(text);
 }
+const name
 
 function speak(text) {
   const utterance = new SpeechSynthesisUtterance(text);
